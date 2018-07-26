@@ -31,21 +31,23 @@
             android:textSize="40sp"
             android:textStyle="bold|italic" />
 
-        <ImageView
-            android:id="@+id/imageView"
+        <ImageButton
+            android:id="@+id/main_map_btn"
             android:layout_width="65dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@android:color/background_light"
-            android:scaleType="fitCenter"
+            android:onClick="click_map"
+            android:scaleType="centerInside"
             android:src="@drawable/map0" />
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <ImageButton
+            android:id="@+id/main_search_btn"
             android:layout_width="65dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@android:color/background_light"
+            android:onClick="click_search"
             android:scaleType="centerInside"
             android:src="@drawable/search0" />
 
