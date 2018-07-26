@@ -19,7 +19,9 @@
         <activity android:name=".BarActivity" />
         <activity android:name=".BarInfoActivity" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".RankActivity"></activity>
+        <activity android:name=".RankActivity" />
+        <activity android:name=".CocktailActivity" />
+        <activity android:name=".CocktailInfoActivity"></activity>
     </application>
 
 </manifest>

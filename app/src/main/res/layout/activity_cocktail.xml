@@ -11,19 +11,20 @@
         android:orientation="horizontal">
 
         <Spinner
-            android:id="@+id/bar_spinner_1"
+            android:id="@+id/cocktail_spinner_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <Spinner
-            android:id="@+id/bar_spinner_2"
+            android:id="@+id/cocktail_spinner_2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
 
     <ListView
+        android:id="@+id/cocktail_lv"
         android:layout_width="match_parent"
         android:layout_height="731dp"
         android:scrollbars="vertical">
