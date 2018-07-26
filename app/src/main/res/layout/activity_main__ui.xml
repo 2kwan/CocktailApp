@@ -110,8 +110,8 @@
             <ImageView
                 android:id="@+id/today_cocktail_image"
                 android:layout_width="match_parent"
-                android:background="@android:color/background_light"
                 android:layout_height="200dp"
+                android:background="@android:color/holo_blue_bright"
                 android:scaleType="fitCenter"
                 android:src="@drawable/cocktail1" />
 
